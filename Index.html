@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Forum</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="Script.js">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a class="Risk" href="#">Community Forum</a></li>
+      <li><a style="padding-left:380px;" href="#">Home</a></li>
+      <li><a href="#">Details</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About</a></li>
+      
+    </ul>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Threads Section -->
+      <div class="col-md-8">
+        <h1 style="text-align: center;" >Community Forum Threads</h1>
+        <div id="threadList">
+          <!-- Threads will appear here -->
+        </div>
+      </div>
+
+      <!-- Create New Thread -->
+      <div class="col-md-4">
+        <h3 class="Create">Create a New Thread</h3>
+        <form id="createThreadForm">
+          <div class="mb-3">
+            <input type="text" id="threadTitle" class="form-control" placeholder="Enter thread title" required>
+          </div>
+          <div class="mb-3">
+            <textarea id="threadDescription" class="form-control" rows="3" placeholder="Enter thread description" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Create Thread</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

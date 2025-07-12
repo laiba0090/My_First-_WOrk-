@@ -1,0 +1,61 @@
+/* Custom styles */
+
+.Risk{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+
+}
+ul{
+  margin: 0%;
+  padding: 0%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+nav{
+  background-color: rgb(210, 210, 62);
+  width: 100%;
+  padding: 10px;
+margin-left: 0px;
+}
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  h3 {
+    color: #343a40;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  .mb-3{
+    text-align: center;
+
+  }
+
+
